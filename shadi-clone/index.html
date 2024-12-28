@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShaadiClone - Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">ShaadiClone</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+          <li class="nav-item"><a class="nav-link" href="signup.html">Sign Up</a></li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="container-fluid hero-section text-center text-white d-flex align-items-center justify-content-center" style="background-image: url('images/placeholder.jpg');">
+    <div>
+      <h1><b>Find Your Perfect Match</b> </h1>
+      <p class="lead"><b>Join millions who found their partners on ShaadiClone</b></p>
+      <a href="signup.html" class="btn btn-success btn-lg">Sign Up Now</a>
+    </div>
+  </div>
+  
+ <!-- Search Section -->
+<section class="container my-5">
+  <h2 class="text-center mb-4">Find Your Perfect Match</h2>
+  <form class="row justify-content-center">
+    <!-- Age Input -->
+    <div class="col-md-3 mb-3">
+      <input type="number" class="form-control" placeholder="Age" min="18" max="99" required>
+    </div>
+    <!-- Gender Dropdown -->
+    <div class="col-md-3 mb-3">
+      <select class="form-control" required>
+        <option value="" disabled selected>Gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+    <!-- Location Input -->
+    <div class="col-md-3 mb-3">
+      <input type="text" class="form-control" placeholder="Location (e.g., City, State)" required>
+    </div>
+    <!-- Search Button -->
+    <div class="col-md-2 mb-3">
+      <button type="submit" class="btn btn-primary w-100">Search</button>
+    </div>
+  </form>
+</section>
+
+
+  <!-- Features Section -->
+  <section id="features" class="container my-5">
+    <h2 class="text-center mb-4">Our Features</h2>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <i class="bi bi-heart-fill display-4 text-primary"></i>
+        <h4>Verified Profiles</h4>
+        <p>All profiles are verified to ensure authenticity and trust.</p>
+      </div>
+      <div class="col-md-4">
+        <i class="bi bi-search display-4 text-success"></i>
+        <h4>Advanced Search</h4>
+        <p>Search by age, religion, profession, and more to find the perfect match.</p>
+      </div>
+      <div class="col-md-4">
+        <i class="bi bi-shield-fill-check display-4 text-danger"></i>
+        <h4>Secure Platform</h4>
+        <p>Your data is protected with industry-standard encryption.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Success Stories Section -->
+  <section class="container my-5">
+    <h2 class="text-center mb-4">Success Stories</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/couple1.jpg" class="card-img-top" alt="Couple 1">
+          <div class="card-body">
+            <h5 class="card-title">Aarav & Priya</h5>
+            <p class="card-text">"Thanks to ShaadiClone, we found each other and are now happily married."</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/couple2.jpg" class="card-img-top" alt="Couple 2">
+          <div class="card-body">
+            <h5 class="card-title">Raj & Sneha</h5>
+            <p class="card-text">"A wonderful platform to connect with like-minded people."</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/couple3.jpg" class="card-img-top" alt="Couple 3">
+          <div class="card-body">
+            <h5 class="card-title">Vikram & Riya</h5>
+            <p class="card-text">"Our journey together started on ShaadiClone!"</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Membership Plans Section -->
+<section class="container my-5">
+  <h2 class="text-center mb-4">Choose Your Membership Plan</h2>
+  <div class="row text-center">
+    <!-- Basic Plan -->
+    <div class="col-md-4">
+      <div class="card membership-card-basic position-relative">
+        <img src="images/mem-bg1.jpg" class="card-background-img" alt="Basic Plan Background">
+        <div class="card-body position-relative">
+          <h5 class="card-title">Basic Plan</h5>
+          <p class="card-text">Free access to limited profiles</p>
+          <p class="price">$0 / month</p>
+          <a href="signup.html" class="btn btn-primary">Sign Up</a>
+        </div>
+      </div>
+    </div>
+    <!-- Premium Plan -->
+    <div class="col-md-4">
+      <div class="card membership-card-premium position-relative">
+        <img src="images/mem-bg1.jpg" class="card-background-img" alt="Premium Plan Background">
+        <div class="card-body position-relative">
+          <h5 class="card-title">Premium Plan</h5>
+          <p class="card-text">Full profile access and contact options</p>
+          <p class="price">$10 / month</p>
+          <a href="signup.html" class="btn btn-primary">Sign Up</a>
+        </div>
+      </div>
+    </div>
+    <!-- Elite Plan -->
+    <div class="col-md-4">
+      <div class="card membership-card-elite position-relative">
+        <img src="images/mem-bg1.jpg" class="card-background-img" alt="Elite Plan Background">
+        <div class="card-body position-relative">
+          <h5 class="card-title">Elite Plan</h5>
+          <p class="card-text">Dedicated matchmaker assistance</p>
+          <p class="price">$50 / month</p>
+          <a href="signup.html" class="btn btn-primary">Sign Up</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Featured Profiles Section -->
+<section class="container my-5">
+  <h2 class="text-center mb-4">Featured Profiles</h2>
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card">
+        <img src="images/profile1.jpg" class="card-img-top" alt="Profile 1">
+        <div class="card-body">
+          <h5 class="card-title">Rohit, 28</h5>
+          <p class="card-text">Engineer from Bangalore</p>
+          <a href="#" class="btn btn-outline-primary">View Profile</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card">
+        <img src="images/profile2.jpg" class="card-img-top" alt="Profile 2">
+        <div class="card-body">
+          <h5 class="card-title">Sneha, 26</h5>
+          <p class="card-text">Doctor from Mumbai</p>
+          <a href="#" class="btn btn-outline-primary">View Profile</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card">
+        <img src="images/profile3.jpg" class="card-img-top" alt="Profile 3">
+        <div class="card-body">
+          <h5 class="card-title">Amit, 30</h5>
+          <p class="card-text">Entrepreneur from Delhi</p>
+          <a href="#" class="btn btn-outline-primary">View Profile</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card">
+        <img src="images/profile4.jpg" class="card-img-top" alt="Profile 4">
+        <div class="card-body">
+          <h5 class="card-title">Riya, 25</h5>
+          <p class="card-text">Designer from Pune</p>
+          <a href="#" class="btn btn-outline-primary">View Profile</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 ShaadiClone. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
